@@ -81,7 +81,8 @@ h6 {
 }
 p {
 	font-family: 'Montserrat', sans-serif;
-	color: #b2b1b8;
+	/*color: #b2b1b8;*/
+	color: #333333;
 	font-size: 18px;
 	letter-spacing: 0.5px;
 	line-height: 30px;
@@ -384,7 +385,7 @@ section {
 	text-transform: none;
 }
 .heading-block-3 p {
-	color: #cccccc;
+	/*color: #cccccc;*/
 	max-width: 780px;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -833,7 +834,7 @@ header.header-3d{
       HOME 
 ========================================================*/
 .home-agency {
-	height: 1000px;
+	/*height: 1000px;*/
 	position: relative;
 }
 .home-agency .ag-text {
@@ -865,7 +866,7 @@ header.header-3d{
 	font-weight: normal;
 }
 .home-agency {
-	background: #443a8b url(../images/bg/bnr-home.png) center bottom fixed no-repeat;
+	/*background: #443a8b url(../images/bg/bnr-home.png) center bottom fixed no-repeat;*/
 }
 .home-agency .ag-text {
 	margin-top: 100px;
@@ -1187,8 +1188,10 @@ header.header-3d{
 }
 .work-process {
 	background: #443a8b;
-	padding-top: 550px;
-	padding-bottom: 550px;
+	/*padding-top: 550px;
+	padding-bottom: 550px;*/
+	padding-top: 150px;
+    padding-bottom: 150px;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
@@ -1349,7 +1352,10 @@ header.header-3d{
 	margin-top: 40px;
 }
 .list-work .img-right {
-	margin-left: -100px;
+	/*margin-left: -100px;*/
+}
+.list-work .img-left {
+	margin-left: -120px;
 }
 .list-work article {
 	margin-bottom: 140px;
@@ -1621,9 +1627,11 @@ header.header-3d{
 	margin-bottom: 20px;
 }
 .portfolio-details .project-info p {
-	font-size: 12px;
+	/*font-size: 12px;*/
+	font-size: 20px;
 	margin-bottom: 50px;
-	line-height: 18px;
+	/*line-height: 18px;*/
+	line-height: 36px;
 }
 .portfolio-details .social-icons a {
 	font-size: 18px;
@@ -1828,8 +1836,10 @@ header.header-3d{
 ========================================================*/
 .profile-main {
 	background: #f7f7f7 url(../images/bg/profile-bg.png) center left no-repeat;
-	padding-top: 400px;
-	padding-bottom: 400px;
+	/*padding-top: 400px;
+	padding-bottom: 400px;*/
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .profile-main .cir-tri-bg {
 	z-index: 1;
@@ -2142,7 +2152,7 @@ header.header-3d{
 	background: #fafaf8 url(../images/bg/services-brand-bg.png) right 200px no-repeat;
 }
 .services.boxes {
-	background: url(../images/bg/services-bg-2.png) right bottom no-repeat;
+	/*background: url(../images/bg/services-bg-2.png) right bottom no-repeat;*/
 }
 .services-list {
 	padding-right: 50px;
@@ -2188,7 +2198,7 @@ header.header-3d{
 	line-height: 35px;
 }
 .services p {
-	color: #cccccc;
+	/*color: #cccccc;*/
 }
 .services .services-grid ul {
 	margin: 0px;
@@ -2207,7 +2217,7 @@ header.header-3d{
 	padding: 30px 30px;
 	padding-top: 50px;
 	margin-bottom: 30px;
-	min-height: 520px;
+	/*min-height: 520px;*/
 }
 .services .services-boxes article h5 {
 	margin-top: 50px;
@@ -2320,7 +2330,7 @@ header.header-3d{
 .pricing article {
 	background: #fff;
 	text-align: center;
-	padding: 70px 50px;
+	/*padding: 70px 50px;*/
 	border-radius: 6px;
 }
 .pricing article .price-head {
@@ -2354,7 +2364,7 @@ header.header-3d{
 	color: #0be0b0;
 }
 .pricing article .price-head .plan-price span {
-	vertical-align: top;
+	vertical-align: bottom;
 	font-size: 40px;
 	margin-right: 5px;
 	display: inline-block;
