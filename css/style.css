@@ -375,7 +375,8 @@ section {
 	color: #cccccc;
 }
 .heading-block-3 {
-	margin-bottom: 130px;
+	/*margin-bottom: 130px;*/
+	margin-bottom: 50px;
 }
 .heading-block-3 h3 {
 	font-weight:bold;
@@ -387,7 +388,7 @@ section {
 .heading-block-3 p {
 	/*color: #cccccc;*/
 	max-width: 780px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	margin-top: 30px;
 }
 /*=======================================================
@@ -835,6 +836,7 @@ header.header-3d{
 ========================================================*/
 .home-agency {
 	/*height: 1000px;*/
+	height: 900px;
 	position: relative;
 }
 .home-agency .ag-text {
@@ -1667,8 +1669,8 @@ header.header-3d{
 	opacity: 1;
 }
 .project-info.full {
-	text-align: center;
-	margin-bottom: 50px;
+	text-align: left;
+	/*margin-bottom: 50px;*/
 }
 .project-info.full li {
 	width: 25%;
@@ -2087,7 +2089,7 @@ header.header-3d{
 	font-weight: normal;
 	margin-bottom: 15px;
 	display: inline-block;
- width:100%:
+	width:100%;
 }
 .experience .exp-list h5 {
 	position: relative;
@@ -2146,10 +2148,10 @@ header.header-3d{
       Services
 ========================================================*/
 .services.web {
-	background: url(../images/bg/services-bg-1.png) left 350px no-repeat;
+	/*background: url(../images/bg/services-bg-1.png) left 350px no-repeat;*/
 }
 .services.brand {
-	background: #fafaf8 url(../images/bg/services-brand-bg.png) right 200px no-repeat;
+	/*background: #fafaf8 url(../images/bg/services-brand-bg.png) right 200px no-repeat;*/
 }
 .services.boxes {
 	/*background: url(../images/bg/services-bg-2.png) right bottom no-repeat;*/
