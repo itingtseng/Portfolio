@@ -1338,7 +1338,7 @@ header.header-3d{
       WORK
 ========================================================*/
 .our-work {
-	background: url(../images/bg/work-bg.png) right 150px no-repeat;
+	/*background: url(../images/bg/work-bg.png) right 150px no-repeat;*/
 }
 .list-work {
 	max-width: 970px;
