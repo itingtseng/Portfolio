@@ -1502,10 +1502,25 @@ header.header-3d{
 	left: 50px;
 	z-index: 3;
 }
+
+.portfolio .position-top {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 3;
+}
+
 .portfolio .position-bottom h4 a {
 	color: #232227;
 }
 .portfolio .position-bottom p {
+	color: #232227;
+}
+
+.portfolio .position-top h4 a {
+	color: #232227;
+}
+.portfolio .position-top p {
 	color: #232227;
 }
 #portfolio-slide .position-center-center {
@@ -1559,6 +1574,31 @@ header.header-3d{
 	color: #fff;
 }
 .portfolio .ma-3d .portfolio-item:hover .position-bottom {
+	bottom: 30px;
+}
+
+.portfolio .ma-3d .position-top {
+	bottom: -50%;
+	width: 100%;
+	padding: 0 50px;
+	left: 0px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.portfolio .ma-3d .position-top h4 a {
+	color: #fff;
+	font-size: 36px;
+}
+.portfolio .ma-3d .position-top h4 a:hover {
+	color: #232227;
+}
+.portfolio .ma-3d .position-top p {
+	color: #fff;
+}
+.portfolio .ma-3d .portfolio-item:hover .position-top {
 	bottom: 30px;
 }
 /*=======================================================
@@ -1621,10 +1661,10 @@ header.header-3d{
 	transform: rotate(-3deg);
 	background: #f7f7f7;
 }
-.portfolio-details {
+/*.portfolio-details {
 	background: url(../images/bg/portfolio-detail-1.png) right 50px no-repeat;
 	background-size: cover;
-}
+}*/
 .portfolio-details .project-info h5 {
 	margin-bottom: 20px;
 }
@@ -4099,6 +4139,14 @@ header.header-3d{
 	padding-left: 50px;
 	left: 0 !important;
 }
+
+.portfolio .position-top {
+	text-align: left;
+	width: 100%;
+	padding-left: 50px;
+	left: 0 !important;
+}
+
 .portfolio .ma-3b .cbp-item.portfolio-item article {
 	margin-bottom: 0px;
 }
@@ -4121,6 +4169,24 @@ header.header-3d{
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
+.portfolio .ma-3b .cbp-item.portfolio-item:hover .position-top p {
+	color: #FFF;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.portfolio .ma-3b .cbp-item.portfolio-item:hover .position-top h4 a {
+	color: #FFF;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
 #portfolio-slide {
 }
 #portfolio-slide .portfolio-item:hover p {
