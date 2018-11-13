@@ -259,6 +259,84 @@ $back_to_top.on('click', function(event){
      });
     },
 });
+  $('#js-grid-agency-1').cubeportfolio({
+        filters: '#js-filters-agency',
+        loadMore: '#js-loadMore-agency',
+        loadMoreAction: 'click',
+        layoutMode: 'grid',
+        defaultFilter: '*',
+        animationType: 'slideLeft',
+        gapHorizontal: 0,
+        gapVertical: 0,
+  		gridAdjustment: '',
+//		caption: 'zoom',
+//		displayType: 'lazyLoading',
+		displayTypeSpeed: 50,
+		caption: 'overlayBottomAlong',
+        displayType: 'bottomToTop',
+		
+		// singlePage popup
+		singlePageDelegate: '.cbp-singlePage',
+		singlePageDeeplinking: true,
+		singlePageStickyNavigation: true,
+		
+		singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+		singlePageCallback: function(url, element) {
+	// to update singlePage content use the following method: this.updateSinglePage(yourContent)
+    var t = this;
+       $.ajax({
+         url: url,
+         type: 'GET',
+         dataType: 'html',
+         timeout: 10000
+    })
+.done(function(result) {
+         t.updateSinglePage(result);
+         })
+.fail(function() {
+          t.updateSinglePage('AJAX Error! Please refresh the page!');
+     });
+    },
+});
+  $('#js-grid-agency-2').cubeportfolio({
+        filters: '#js-filters-agency',
+        loadMore: '#js-loadMore-agency',
+        loadMoreAction: 'click',
+        layoutMode: 'grid',
+        defaultFilter: '*',
+        animationType: 'slideLeft',
+        gapHorizontal: 0,
+        gapVertical: 0,
+  		gridAdjustment: '',
+//		caption: 'zoom',
+//		displayType: 'lazyLoading',
+		displayTypeSpeed: 50,
+		caption: 'overlayBottomAlong',
+        displayType: 'bottomToTop',
+		
+		// singlePage popup
+		singlePageDelegate: '.cbp-singlePage',
+		singlePageDeeplinking: true,
+		singlePageStickyNavigation: true,
+		
+		singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+		singlePageCallback: function(url, element) {
+	// to update singlePage content use the following method: this.updateSinglePage(yourContent)
+    var t = this;
+       $.ajax({
+         url: url,
+         type: 'GET',
+         dataType: 'html',
+         timeout: 10000
+    })
+.done(function(result) {
+         t.updateSinglePage(result);
+         })
+.fail(function() {
+          t.updateSinglePage('AJAX Error! Please refresh the page!');
+     });
+    },
+});
 /*-----------------------------------------------------------------------------------*/
 /*	CUBE PORTFOLIO
 /*-----------------------------------------------------------------------------------*/
