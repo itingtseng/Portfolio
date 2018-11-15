@@ -1173,9 +1173,9 @@ header.header-3d{
 	text-transform: uppercase;
 	line-height: 98px;
 }
-.sub-bnr-home p {
+/*.sub-bnr-home p {
 	color: #cccccc;
-}
+}*/
 .parallax-bg {
 	background-size: cover !important;
 }
@@ -1444,6 +1444,7 @@ header.header-3d{
 	color: #fff;
 	display: inline-block;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .portfolio-item h4 a {
 	font-size: 40px;
@@ -1879,8 +1880,8 @@ header.header-3d{
 .profile-main {
 	background: #f7f7f7 url(../images/bg/profile-bg.png) center left no-repeat;
 	/*padding-top: 400px;
-	padding-bottom: 400px;*/
-	padding-top: 100px;
+	padding-bottom: 400px;
+	padding-top: 100px;*/
 	padding-bottom: 100px;
 }
 .profile-main .cir-tri-bg {
@@ -2068,9 +2069,9 @@ header.header-3d{
 /*=======================================================
       Education
 ========================================================*/
-.education {
+/*.education {
 	background: #fafaf8 url(../images/bg/education-bg.png) left 350px no-repeat;
-}
+}*/
 .education p {
 	color: #cccccc;
 }
@@ -2110,9 +2111,9 @@ header.header-3d{
 .experience {
 	background: #fff url(../images/bg/exp-bg.png) right center no-repeat;
 }
-.experience p {
+/*.experience p {
 	color: #cccccc;
-}
+}*/
 .experience .exp-list {
 	padding-left: 370px;
 }
@@ -2125,7 +2126,7 @@ header.header-3d{
 }
 .experience .media-body span {
 	font-size: 18px;
-	color: #cccccc;
+	/*color: #cccccc;*/
 	font-weight: normal;
 	margin-bottom: 15px;
 	display: inline-block;
@@ -2146,12 +2147,12 @@ header.header-3d{
 /*=======================================================
       Awards
 ========================================================*/
-.awards {
+/*.awards {
 	background: #fafaf8 url(../images/bg/awards-bg.png) left 250px no-repeat;
-}
-.awards p {
+}*/
+/*.awards p {
 	color: #cccccc;
-}
+}*/
 .awards .edu-list {
 	padding-left: 430px;
 }
@@ -2526,10 +2527,10 @@ header.header-3d{
 	z-index: -1;
 	height: 100%;
 }
-.hello-i-am .test-sec p {
+/*.hello-i-am .test-sec p {
 	color: #ccc;
 	font-weight: normal;
-}
+}*/
 .hello-i-am .heading-block-2 h5 {
 	margin-top: 150px;
 }
@@ -3544,9 +3545,9 @@ header.header-3d{
 /*=======================================================
 			HOME 2
 ========================================================*/
-.home-2 .home-agency {
+/*.home-2 .home-agency {
 	background: #4fd5ed url(../images/bg/head-bg-1.png) center center fixed no-repeat;
-}
+}*/
 .home-2 .home-agency .ag-text {
 	-ms-transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
