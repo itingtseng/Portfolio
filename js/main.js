@@ -124,30 +124,6 @@ $("#portfolio-slide").owlCarousel({
         },
     }
 });
-$("#portfolio-slide-1").owlCarousel({ 
-    items : 2,
-    autoplay:true,
-    loop:true,
-    margin: 30,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    singleItem  : true,
-    navigation : false,
-    navText: ["<i class='lnr lnr-arrow-left'></i>","<i class='lnr lnr-arrow-right'></i>"],
-    pagination : true,
-    animateOut: 'fadeOut',
-    responsive:{
-        0:{
-            items:1,
-        },
-        400:{
-            items:1,
-        },
-        900:{
-            items:2,
-        },
-    }
-});
 /*-----------------------------------------------------------------------------------
     TESTNMONIALS STYLE 1
 /*-----------------------------------------------------------------------------------*/
