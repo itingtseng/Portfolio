@@ -1087,8 +1087,10 @@ header.header-3d{
 }
 .btn-flat {
 	display: inline-block;
-	font-size: 25px;
-	font-weight: bold;
+	/*font-size: 25px;*/
+	font-size: 18px;
+	/*font-weight: bold;*/
+	font-weight: normal;
 	text-transform: uppercase;
 	/*color: #fe6192;*/
 	color: blue;
@@ -1188,7 +1190,8 @@ header.header-3d{
 	background: #232227;
 }
 .sub-bnr-home h1 {
-	font-family: 'montserrat';
+	/*font-family: 'montserrat';*/
+	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 104px;
 	color: #232227;
@@ -1556,7 +1559,7 @@ header.header-3d{
 #portfolio-slide .position-center-center h4 a {
 	color: #232227;
 }
-/*#portfolio-slide .owl-controls .owl-dots {
+#portfolio-slide .owl-controls .owl-dots {
 	position: absolute;
 	bottom: -80px;
 	left: 0px;
@@ -1573,7 +1576,8 @@ header.header-3d{
 	display: inline-block;
 }
 #portfolio-slide .owl-controls .owl-dot.active {
-	background: #0be0b0;*/
+	/*background: #0be0b0;*/
+	background: blue;
 }
 #portfolio-slide-1 .position-center-center {
 	z-index: 3;
