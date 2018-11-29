@@ -1098,7 +1098,7 @@ header.header-3d{
 }
 .btn-flat:hover {
 	color: #443a8b;
-	border-bottom: 2px solid #443a8b;
+	border-bottom: 2px solid blue;
 }
 .hello .cir-bottom-bg {
 	z-index: 1;
@@ -2640,8 +2640,8 @@ header.header-3d{
 	font-size: 25px;
 }
 .blog .post-normal p {
-	font-size: 12px;
-	line-height: 18px;
+	/*font-size: 12px;*/
+	line-height: 24px;
 }
 .blog .post-normal .post-tittle {
 	font-size: 20px;
@@ -2662,7 +2662,7 @@ header.header-3d{
 	width: 100%;
 	text-transform: uppercase;
 	color: #232227;
-	font-size: 12px;
+	/*font-size: 12px;*/
 	margin: 20px 0;
 	font-weight: bold;
 	margin-bottom: 10px;
@@ -2671,14 +2671,14 @@ header.header-3d{
 	margin-top: 150px;
 }
 .blog .post-normal .btn-flat {
-	font-size: 12px;
+	/*font-size: 12px;*/
 	font-weight: normal;
 	padding-bottom: 5px;
 	/*border-bottom: 1px solid #fe6192;*/
 	border-bottom: 1px solid blue;
 }
 .blog .post-normal .comm {
-	font-size: 12px;
+	/*font-size: 12px;*/
 	display: inline-block;
 	width: 100%;
 	color: #b2b1b8;
