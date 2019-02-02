@@ -795,7 +795,7 @@ header .is-sticky .sticky .nav .dropdown-menu {
 }
 header .navbar li a:hover {
 	/*color: #fe6192 !important;*/
-	color: blue !important;
+	color: #1769ff !important;
 }
 header .navbar li a:before {
 	position: absolute;
@@ -804,7 +804,7 @@ header .navbar li a:before {
 	height: 2px;
 	width: 0px;
 	/*background: #fe6192;*/
-	background: blue;
+	background: #1769ff;
 	content: "";
 	-webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
@@ -822,7 +822,7 @@ header .navbar li.active a:before {
 	height: 2px;
 	width: 100%;
 	/*background: #fe6192;*/
-	background: blue;
+	background: #1769ff;
 	content: "";
 	-webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
@@ -832,7 +832,7 @@ header .navbar li.active a:before {
 }
 header .navbar li.active a {
 	/*color: #fe6192 !important;*/
-	color: blue !important;
+	color: #1769ff !important;
 }
 .navbar-toggle {
 	color: #fff;
@@ -1093,9 +1093,9 @@ header.header-3d{
 	font-weight: normal;
 	text-transform: uppercase;
 	/*color: #fe6192;*/
-	color: blue;
+	color: #1769ff;
 	/*border-bottom: 2px solid #fe6192;*/
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid #1769ff;
 	position: relative;
 }
 .btn-flat:hover {
@@ -1577,7 +1577,7 @@ header.header-3d{
 }
 #portfolio-slide .owl-controls .owl-dot.active {
 	/*background: #0be0b0;*/
-	background: blue;
+	background: #1769ff;
 }
 #portfolio-slide-1 .position-center-center {
 	z-index: 3;
@@ -1607,7 +1607,7 @@ header.header-3d{
 }
 #portfolio-slide-1 .owl-controls .owl-dot.active {
 	/*background: #0be0b0;*/
-	background: blue;
+	background: #1769ff;
 }
 .portfolio .ma-3d .position-bottom {
 	bottom: -50%;
@@ -1937,8 +1937,8 @@ header.header-3d{
 	/*background: #f7f7f7 url(../images/bg/profile-bg.png) center left no-repeat;*/
 	/*padding-top: 400px;
 	padding-bottom: 400px;
-	padding-top: 100px;*/
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;*/
 }
 .profile-main .cir-tri-bg {
 	z-index: 1;
@@ -2015,7 +2015,7 @@ header.header-3d{
 	color: #f65589;
 }
 .profile-main .btn-part {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	text-align: center;
 }
 .profile-main .btn-large {
@@ -2679,7 +2679,7 @@ header.header-3d{
 	font-weight: normal;
 	padding-bottom: 5px;
 	/*border-bottom: 1px solid #fe6192;*/
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid #1769ff;
 }
 .blog .post-normal .comm {
 	/*font-size: 12px;*/
@@ -3675,15 +3675,15 @@ header.header-3d{
 .home-2 .btn-large-1 {
 	/*background: #6f43d6;
 	border-color: #6f43d6;*/
-	background: blue;
-	border-color: blue;
+	background: #1769ff;
+	border-color: #1769ff;
 	color: #fff;
 	border-radius: 40px;
 }
 .home-2 .btn-large-1:hover {
 	background: none;
 	/*color: #6f43d6;*/
-	color: blue;
+	color: #1769ff;
 }
 .home-2 .testimonial {
 	/*background: url(../images/bg/client-bg-1.png) center 50px no-repeat;*/
