@@ -271,16 +271,18 @@ section {
 	background: #fff;
 }
 .btn-large {
-	font-size: 25px;
+	font-size: 20px;
 	display: inline-block;
-	border: 3px solid #fe6192;
-	color: #fe6192;
-	font-weight: bold;
+	border: 3px solid #1769ff;
+	color: #fff;
+	/*font-weight: bold;*/
+	letter-spacing: 2px;
 	padding: 15px 50px;
+	background: #1769ff;
 	text-transform: uppercase;
 }
 .btn-large:hover {
-	background: #fe6192;
+	background: #1769ff;
 	color: #fff;
 }
 /*=======================================================
@@ -403,7 +405,7 @@ section {
 .heading-block-3 p {
 	/*color: #cccccc;*/
 	max-width: 780px;
-	margin: 30px auto 30px;
+	margin: 20px auto 20px;
 }
 /*=======================================================
       TOP BAR
@@ -435,7 +437,7 @@ header {
 	z-index: 999;
 	background: none;
 	padding: 0px 0;
-	margin-top: 60px;
+	/*margin-top: 60px;*/
 	position: absolute;
 }
 header .container {
@@ -450,7 +452,7 @@ header .navbar {
 	border-radius: 0px;
 	text-align: center;
 	float: right;
-	margin-top: 5px;
+	margin-top: 25px;
 }
 header .logo {
 	float: left;
@@ -1127,15 +1129,15 @@ header.header-3d{
       SUB BANNE
 ========================================================*/
 .sub-bnr {
-	min-height: 900px;
+	min-height: 500px;
 	/*background: #f7f7f7 url(../images/bg/sub-bnr-1.png) center center no-repeat;*/
 	text-align: center;
 	position: relative;
 	z-index: 1;
 }
 .sub-bnr h1 {
-	color: #232227;
-	font-size: 104px;
+	color: #fff;
+	font-size: 60px;
 	font-weight: normal;
 	line-height: 106px;
 	margin-bottom: 30px;
@@ -1146,7 +1148,53 @@ header.header-3d{
 	z-index: 3;
 }
 .sub-bnr.blog-l {
-	background: #f7f7f7 url(../images/bg/blog-list-bg.png) center center no-repeat;
+	background: url(../images/bg/blog-list-bg.jpg) center center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-2 {
+	background: url(../images/bg/blog-list-bg-2.jpg) bottom center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-3 {
+	background: url(../images/bg/blog-list-bg-3.jpg) center center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-4 {
+	background: url(../images/bg/blog-list-bg-4.jpg) center center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-5 {
+	background: url(../images/bg/blog-list-bg-5.jpg) bottom center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-6 {
+	background: url(../images/bg/blog-list-bg-6.jpg) bottom center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-7 {
+	background: url(../images/bg/blog-list-bg-7.jpg) center center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-8 {
+	background: url(../images/bg/blog-list-bg-8.jpg) center center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-9 {
+	background: url(../images/bg/blog-list-bg-9.jpg) center center no-repeat;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.divbg { 
+    height: 500px;
+    background: rgba(0,0,0,.3); 
 }
 .sub-bnr.blog-l h1 {
 	margin-top: 10px;
@@ -1164,7 +1212,7 @@ header.header-3d{
 }
 .sub-bnr p {
 	/*color: #b2b1b8;*/
-	color: #282828;
+	color: #fff;
 }
 .sub-bnr-home {
 	/*background: #f8f8f6 url(../images/bg/sub-bnr-home.png) 770px bottom no-repeat;*/
@@ -1771,7 +1819,7 @@ header.header-3d{
 }
 .project-info.full li {
 	width: 25%;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 	text-align: center;
 	float: left;
 }
@@ -2021,14 +2069,15 @@ header.header-3d{
 .profile-main .btn-large {
 	margin: 0 10px;
 	padding: 12px 0;
-	min-width: 350px;
+	min-width: 240px;
 	display: inline-block;
 }
 .btn-large-1 {
-	font-size: 25px;
+	font-size: 20px;
 	border: 3px solid #443a8b;
 	color: #fff;
-	font-weight: bold;
+	/*font-weight: bold;*/
+	letter-spacing: 2px;
 	background: #443a8b;
 	padding: 15px 50px;
 	text-transform: uppercase;
@@ -2649,7 +2698,7 @@ header.header-3d{
 }
 .blog .post-normal .post-tittle {
 	font-size: 20px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	text-transform: none;
 	width: 100%;
 	color: #232227;
@@ -2885,6 +2934,7 @@ header.header-3d{
 }
 .blog-list-page .items article {
 	margin-bottom: 30px;
+	margin-top: 10px;
 }
 .blog-list-page .list-work article .tags {
 	font-size: 18px;
@@ -3637,13 +3687,13 @@ header.header-3d{
 	border-bottom: 2px solid #fff;
 }
 .home-2 .btn-large {
-	color: #4ed3eb;
+	color: #fff;
 	border-radius: 40px;
-	border: 3px solid #4ed3eb;
+	border: 3px solid #1769ff;
 }
 .home-2 .btn-large:hover {
-	background: #4ed3eb;
-	color: #fff;
+	background: none;
+	color: #1769ff;
 }
 .home-2 .work-process {
 	background: #6f43d6;
