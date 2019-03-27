@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!--<link rel="stylesheet" href="css/vertical-fixed-navigation/reset.css">-->
+    <link rel="stylesheet" href="css/vertical-fixed-navigation/style.css">
     <!-- Fonts Online -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Playfair+Display:400,700,900&subset=cyrillic,latin-ext" rel="stylesheet">
     <!-- COLORS -->
@@ -29,6 +31,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="css/new-style.css">
 </head>
 
 <body>
@@ -38,11 +41,14 @@
             <div class="ldr"></div>
         </div>
     </div>
+    <div class="progress-container">
+        <div class="progress-bar2" id="myBar"></div>
+    </div>
     <!-- Page Wrapper -->
     <div id="wrap" class="home-2">
         <!-- Header -->
         <header class="header">
-            <div class="sticky">
+            <div>
                 <div class="container">
                     <!--<div class="logo"> <a href="index.html"><img src="images/logo.png" alt=""></a> </div>-->
                     <!-- Nav -->
@@ -54,94 +60,88 @@
                         <!-- NAV -->
                         <div class="collapse navbar-collapse" id="nav-open-btn">
                             <ul class="nav">
-                                <!--<li class="dropdown"> <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">HOME </a>
-                  <ul class="dropdown-menu">
-                  <li> <a href="index.html">HOME Defult</a> </li>
-                  <li> <a href="index-1.html">HOME Personal</a> </li>
-                  <li> <a href="index-onepage.html">HOME one page layout <span>( New )</span></a> </li>
-                  <li> <a href="index-2.html">HOME Menu 2 </a> </li>
-                  <li> <a href="index-boxed.html">HOME Boxed </a> </li>
-                  <li> <a href="index-video.html">HOME Video Background <span>( New )</span></a> </li>
-                  <li> <a href="index_mp-3b.html">HOME Portfolio <span>( Creative )</span></a> </li>
-                  <li> <a href="index-slider.html">HOME Slider <span>( New )</span></a> </li>
-                  <li> <a href="index-flat-text.html">HOME Flat Text</a> </li>
-                </ul>
-                </li>
-                <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-                  <ul class="dropdown-menu">
-                    <li> <a href="services-1.html">Services 01</a> </li>
-                    <li> <a href="services-2.html">Services 02</a> </li>
-                    <li> <a href="services-3.html">Services 03</a> </li>
-                    <li> <a href="index_mp-3a.html">Portfolio 01</a> </li>
-                    <li> <a href="index_mp-3b.html">Portfolio 02</a> </li>
-                    <li> <a href="index_mp-3c.html">Portfolio 03</a> </li>
-                    <li> <a href="index_mp-3d.html">Portfolio 04</a> </li>
-                    <li> <a href="portfolio_detail_01.html">portfolio detail 01 </a> </li>
-                    <li> <a href="portfolio_detail_02.html">portfolio detail 02 </a> </li>
-                    <li> <a href="portfolio_detail_03.html">portfolio detail 03 </a> </li>
-                    <li> <a href="blog.html">blog </a> </li>
-                    <li> <a href="blog-list-page-1.html">blog list page 01 </a> </li>
-                    <li> <a href="blog-list-page-2.html">blog  list page 02</a> </li>
-                    <li> <a href="blog-details.html">Blog Details</a> </li>
-                    <li> <a href="contact.html">contact </a> </li>
-                    <li> <a href="coming-soon-1.html">COMING SOON 1 </a> </li>
-                    <li> <a href="coming-soon-2.html">COMING SOON 2</a> </li>
-                    <li> <a href="coming-soon-3.html">COMING SOON 3</a> </li>
-                  </ul>
-                </li>-->
                                 <li class="dropdown"> <a href="about.html">ABOUT </a> </li>
-                                <!--<li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">SERVICES</a>
-                  <ul class="dropdown-menu">
-                    <li> <a href="services-1.html">Services 01</a> </li>
-                    <li> <a href="services-2.html">Services 02</a> </li>
-                    <li> <a href="services-3.html">Services 03</a> </li>
-                  </ul>-->
                                 </li>
                                 <li class="dropdown"> <a href="index.html">Portfolio</a>
-                                    <!--<a href="index_mp-3a.html" class="dropdown-toggle" data-toggle="dropdown">PORTFOLIO</a>-->
-                                    <!--<ul class="dropdown-menu">
-                    <li> <a href="index_mp-3a.html">Portfolio 01</a> </li>
-                    <li> <a href="index_mp-3b.html">Portfolio 02</a> </li>
-                    <li> <a href="index_mp-3c.html">Portfolio 03</a> </li>
-                    <li> <a href="index_mp-3d.html">Portfolio 04</a> </li>
-                    <li> <a href="portfolio_detail_01.html">portfolio detail 01 </a> </li>
-                    <li> <a href="portfolio_detail_02.html">portfolio detail 02 </a> </li>
-                    <li> <a href="portfolio_detail_03.html">portfolio detail 03 </a> </li>
-                  </ul>-->
                                 </li>
-                                <li class="dropdown"> <a href="I Ting Tseng Resume.pdf" target="_blank">Resume </a>
-                  <!--<ul class="dropdown-menu">
-                    <li> <a href="blog.html">blog </a> </li>
-                    <li> <a href="blog-list-page-1.html">blog list page 01 </a> </li>
-                    <li> <a href="blog-list-page-2.html">blog  list page 02</a> </li>
-                    <li> <a href="blog-details.html">Blog Details</a> </li>
-                  </ul>
-                </li>-->
-                <li> <!--<a href="contact.html">CONTACT</a> </li>-->
+                                <li class="dropdown"> <a href="I Ting Tseng Resume.pdf" target="_blank">Resume</a>
+                                <li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
         </header>
+        <nav id="cd-vertical-nav" style="z-index: 1000">
+            <ul>
+                <li>
+                    <a href="#section1" data-number="1">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">OVERVIEW</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section2" data-number="2">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">GOAL</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section3" data-number="3">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">RESEARCH</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section4" data-number="4">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">JOURNEY MAPPING</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section5" data-number="5">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">IDEATION</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section6" data-number="6">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">HOME</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section7" data-number="7">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">INFOGRAPHIC</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#section8" data-number="8">
+                        <span class="cd-dot"></span>
+                        <span class="cd-label">INTERACTIVE CHARTS AND MAPS</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <!-- End Header -->
         <!--======= HOME AGENCY =========-->
         <div class="sub-bnr blog-4">
             <div class="divbg">
-            <div class="position-center-center">
-                <div class="container">
-                    <div class="ag-text">
-                        <h1>Environmental Protection Manifesto</h1>
-                        <p>Through interactive maps and charts, we tell the story to let public understand environmental quality changes in Taiwan in last few years.</p>
+                <div class="position-center-center">
+                    <div class="container">
+                        <div class="ag-text">
+                            <h1>Environmental Protection Manifesto</h1>
+                            <p>Through interactive maps and charts, we tell the story to let public understand environmental quality changes in Taiwan in last few years.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
         <!-- Content -->
         <div id="content" class="inner-pages">
             <!-- Portfolio -->
-            <section class="portfolio-details">
+            <section id="section1" class="portfolio-details">
                 <!-- Diagonal Top -->
                 <div class="cir-tri-bg"></div>
                 <div class="container">
@@ -193,22 +193,22 @@
                     </div>
             </section>
             <!-- Video Cover -->
-            <section class="services boxes">
+            <section id="section2" class="services boxes">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left">
                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">GOAL</p>
-                    <h5>The Challenge</h5>
+                        <h5>The Challenge</h5>
                         <p>Based on publications such as the "Environment White Paper" and "Taiwan Environmental Quality Report" published by the Environmental Protection Administration (EPA), process the trajectory of environmental protection act such as environmental policy and strategies in combination with environmental monitoring data into visualization such as infographic and geographic information system (GIS). The project provides the application of the map integration platform for the implementation of the EPA, so that public can better realize the environmental control act and resources management.</p>
                     </div>
                 </div>
             </section>
-            <section class="services boxes">
+            <section id="section3" class="services boxes">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left" style="margin-top: 50px">
-                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">RESEARCH</p>
-                    <h5>The Solution</h5>
+                        <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">RESEARCH</p>
+                        <h5>The Solution</h5>
                         <p>I. Data collection and analysis<br>
                             <br>In data collection and analysis, I conduct survey of relevant database, project process, requirements like application programming interface (API) from each departmental data.<br>
                             <br>II. Data construction and system analysis<br>
@@ -223,12 +223,12 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio-details services boxes blog blog-list-page">
+            <section id="section4" class="portfolio-details services boxes blog blog-list-page">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left" style="margin-top: 50px">
                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">JOURNEY MAPPING</p>
-                    <h5>Website Architecture</h5>
+                        <h5>Website Architecture</h5>
                         <p>Collect information from established systems in EPA, such as Pollutant release and transfer registers (PRTRs), Environmental Water Quality Information, and Environment Resource Database (ERDB).</p>
                     </div>
                     <div id="js-grid-agency-1" class="items row col-2 with-space">
@@ -270,11 +270,11 @@
                 </div>
             </section>
             <!-- Portfolio -->
-            <section class="portfolio-details services boxes blog blog-list-page">
+            <section id="section5" class="portfolio-details services boxes blog blog-list-page">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left" style="margin-top: 50px">
-                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">IDEATION</p>
+                        <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">IDEATION</p>
                         <h5>Concept sketch</h5>
                         <p>Develop visualization data like infographic for topics such as air pollution control act and water pollution control act.</p>
                     </div>
@@ -435,12 +435,12 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio-details services boxes blog blog-list-page">
+            <section id="section6" class="portfolio-details services boxes blog blog-list-page">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left" style="margin-top: 50px">
                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">HIGH FIDELITY DESIGN</p>
-                    <h5>Prototyping for Home</h5>
+                        <h5>Prototyping for Home</h5>
                         <p>Using GIS to create website in accordance with usability and responsive web design (RWD).</p>
                     </div>
                     <div id="js-grid-agency-2" class="items row col-2 with-space">
@@ -515,12 +515,12 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio-details services boxes blog blog-list-page">
+            <section id="section7" class="portfolio-details services boxes blog blog-list-page">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left" style="margin-top: 50px">
                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">HIGH FIDELITY DESIGN</p>
-                    <h5>Prototyping for Infographic</h5>
+                        <h5>Prototyping for Infographic</h5>
                         <p>Design project includes visualize information of air pollution control act and water pollution control act in time and space dimensions.</p>
                     </div>
                     <div id="js-grid-agency-3" class="items row col-3 with-space">
@@ -680,12 +680,12 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio-details services boxes blog blog-list-page">
+            <section id="section8" class="portfolio-details services boxes blog blog-list-page">
                 <div class="container">
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-left" style="margin-top: 50px">
                         <p style="font-weight:bold ; color:#1769ff;letter-spacing: 2px">HIGH FIDELITY DESIGN</p>
-                    <h5>Prototyping for Interactive Charts and Maps</h5>
+                        <h5>Prototyping for Interactive Charts and Maps</h5>
                         <p>Convert relevant subject spacial data to interactive maps, and chronological species data to interactive chart.</p>
                     </div>
                     <div id="js-grid-agency-4" class="items row col-3 with-space">
@@ -852,7 +852,8 @@
             <footer class="footer footer-sub  padding-top-100 padding-bottom-100">
                 <div class="container">
                     <!-- Rights -->
-                    <div class="rights col-md-9 center-auto margin-top-50"> <h5 style="color:#fff">GET IN TOUCH</h5><a href="mailto:ittseng@iu.edu" class="mail-to">ittseng@iu.edu</a>
+                    <div class="rights col-md-9 center-auto margin-top-50">
+                        <h5 style="color:#fff">GET IN TOUCH</h5><a href="mailto:ittseng@iu.edu" class="mail-to">ittseng@iu.edu</a>
                         <!--<h3>(929)522-8050</h3>-->
                         <div class="social-icons"> <a href="https://www.linkedin.com/in/i-ting-tseng-5001926a/"><i class="ion-social-linkedin"></i></a> <a href="https://twitter.com/tifny7574"><i class="ion-social-twitter"></i></a> <a href="https://medium.com/@tifny7574"><i class="fa fa-medium"></i></a>
                             <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sem leo. Mauris egestas auctor sapien, sed efficitur purus commodo in. </p>-->
@@ -869,41 +870,6 @@
     </div>
     <!-- End Page Wrapper -->
     <!--Style Switcher===========================================-->
-    <div class="color-switcher" id="choose_color"> <a href="#." class="picker_close"><i class="ion-gear-a" ></i></a>
-        <div class="theme-colours">
-            <p class="font-crimson font-italic">Choose Colour style</p>
-            <ul>
-                <li><a href="#." class="blue" id="blue"></a></li>
-                <li><a href="#." class="green" id="green"></a></li>
-                <li><a href="#." class="red" id="red"></a></li>
-                <li><a href="#." class="yellow" id="yellow"></a></li>
-                <li><a href="#." class="brown" id="brown"></a></li>
-                <li><a href="#." class="cyan" id="cyan"></a></li>
-                <li><a href="#." class="purple" id="purple"></a></li>
-                <li><a href="#." class="sky-blue" id="sky-blue"></a></li>
-                <li><a href="#." class="gray" id="gray"></a></li>
-                <li><a href="#." class="peter-river" id="peter-river"></a></li>
-                <li><a href="#." class="nephritis" id="nephritis"></a></li>
-                <li><a href="#." class="amethyst" id="amethyst"></a></li>
-                <li><a href="#." class="wet-asphalt" id="wet-asphalt"></a></li>
-                <li><a href="#." class="night-shade" id="night-shade"></a></li>
-                <li><a href="#." class="sun-flowers" id="sun-flowers"></a></li>
-                <li><a href="#." class="orange" id="orange"></a></li>
-                <li><a href="#." class="carrot" id="carrot"></a></li>
-                <li><a href="#." class="alizarin" id="alizarin"></a></li>
-                <li><a href="#." class="sliver" id="sliver"></a></li>
-                <li><a href="#." class="green-sea" id="green-sea"></a></li>
-            </ul>
-            <div class="layouts no-padding">
-                <p class="font-italic margin-top-20">Layout Mode</p>
-                <a href="#." id="boxed">BOX LAYOUT</a> <a href="#." id="wide">WIDE LAYOUT</a>
-            </div>
-            <div class="layouts no-padding">
-                <p class=" font-italic margin-top-20">Dark/Light Version</p>
-                <a href="#." id="dark-night">DARK VERSION</a> <a href="#." id="light-day">LIGHT VERSION</a>
-            </div>
-        </div>
-    </div>
     <!-- JavaScripts -->
     <script src="js/vendors/jquery/jquery.min.js"></script>
     <script src="js/vendors/wow.min.js"></script>
@@ -917,6 +883,35 @@
     <script type="text/javascript" src="rs-plugin/js/jquery.tp.t.min.js"></script>
     <script type="text/javascript" src="rs-plugin/js/jquery.tp.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    var options = {
+        classname: 'my-class',
+        id: 'my-id',
+        target: document.getElementById('myDivId')
+    };
+
+    var nanobar = new Nanobar(options);
+
+    // move bar
+    nanobar.go(30); // size bar 30%
+    nanobar.go(76); // size bar 76%
+
+    // size bar 100% and and finish
+    nanobar.go(100);
+    </script>
+    <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
 </body>
 
 </html>

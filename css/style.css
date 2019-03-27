@@ -1101,7 +1101,7 @@ header.header-3d{
 	position: relative;
 }
 .btn-flat:hover {
-	color: #443a8b;
+	color: #0b48b7;
 	border-bottom: 2px solid blue;
 }
 .hello .cir-bottom-bg {
@@ -1149,47 +1149,47 @@ header.header-3d{
 }
 .sub-bnr.blog-l {
 	background: url(../images/bg/blog-list-bg.jpg) center center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-2 {
 	background: url(../images/bg/blog-list-bg-2.jpg) bottom center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-3 {
 	background: url(../images/bg/blog-list-bg-3.jpg) center center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-4 {
 	background: url(../images/bg/blog-list-bg-4.jpg) center center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-5 {
 	background: url(../images/bg/blog-list-bg-5.jpg) bottom center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-6 {
 	background: url(../images/bg/blog-list-bg-6.jpg) bottom center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-7 {
 	background: url(../images/bg/blog-list-bg-7.jpg) center center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-8 {
 	background: url(../images/bg/blog-list-bg-8.jpg) center center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-9 {
 	background: url(../images/bg/blog-list-bg-9.jpg) center center no-repeat;
-	margin-top: 100px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 .divbg { 
@@ -1216,7 +1216,8 @@ header.header-3d{
 }
 .sub-bnr-home {
 	/*background: #f8f8f6 url(../images/bg/sub-bnr-home.png) 770px bottom no-repeat;*/
-	min-height: 800px;
+	margin-top: 100px;
+	min-height: 600px;
 	position: relative;
 }
 .sub-bnr-home h5 {
@@ -1616,10 +1617,10 @@ header.header-3d{
 	text-align: center;
 }
 #portfolio-slide .owl-controls .owl-dot {
-	height: 15px;
-	width: 15px;
+	height: 3px;
+	width: 30px;
 	margin: 0 5px;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	background: rgba(0,0,0,0.1);
 	display: inline-block;
 }
@@ -1646,10 +1647,10 @@ header.header-3d{
 	text-align: center;
 }
 #portfolio-slide-1 .owl-controls .owl-dot {
-	height: 15px;
-	width: 15px;
+	height: 3px;
+	width: 30px;
 	margin: 0 5px;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	background: rgba(0,0,0,0.1);
 	display: inline-block;
 }
@@ -2604,12 +2605,12 @@ header.header-3d{
 }
 .services-main i {
 	font-size: 30px;
-	color: #0be0b0;
+	color: #1769ff;
 	display: inline-block;
 	margin-bottom: 20px;
 }
 .services-main p {
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 36px;
 }
 /*=======================================================
@@ -3789,7 +3790,7 @@ header.header-3d{
 	background: #fff;
 }
 .footer-sub {
-	background: #032973 !important;
+	background: #333 !important;
 }
 /*.footer.footer-sub:before {
 	background: url(../images/bg/footer-sub.png) top center no-repeat;
@@ -3798,7 +3799,7 @@ header.header-3d{
 	color: #cccccc !important;
 }
 .footer.footer-sub a {
-	color: #0be0b0 !important;
+	color: #1769ff !important;
 }
 .footer.footer-sub .subcribe {
 	display: inline-block;
