@@ -1217,7 +1217,7 @@ header.header-3d{
 .sub-bnr-home {
 	/*background: #f8f8f6 url(../images/bg/sub-bnr-home.png) 770px bottom no-repeat;*/
 	margin-top: 100px;
-	min-height: 600px;
+	min-height: 500px;
 	position: relative;
 }
 .sub-bnr-home h5 {
@@ -1242,10 +1242,10 @@ header.header-3d{
 	/*font-family: 'montserrat';*/
 	font-family: sans-serif;
 	font-weight: normal;
-	font-size: 104px;
+	font-size: 54px;
 	color: #232227;
 	/*text-transform: uppercase;*/
-	line-height: 98px;
+	line-height: 90px;
 }
 /*.sub-bnr-home p {
 	color: #cccccc;
@@ -2714,9 +2714,9 @@ header.header-3d{
 .blog .post-normal .tag {
 	display: inline-block;
 	width: 100%;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #232227;
-	/*font-size: 12px;*/
+	font-size: 12px;
 	margin: 20px 0;
 	font-weight: bold;
 	margin-bottom: 10px;
