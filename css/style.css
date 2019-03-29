@@ -802,7 +802,7 @@ header .navbar li a:hover {
 header .navbar li a:before {
 	position: absolute;
 	left: 0px;
-	top: 24px;
+	top: 30px;
 	height: 2px;
 	width: 0px;
 	/*background: #fe6192;*/
@@ -820,7 +820,7 @@ header .navbar li a:before:hover {
 header .navbar li.active a:before {
 	position: absolute;
 	left: 0px;
-	top: 24px;
+	top: 30px;
 	height: 2px;
 	width: 100%;
 	/*background: #fe6192;*/
@@ -1431,7 +1431,7 @@ header.header-3d{
 	/*margin-left: -100px;*/
 }
 .list-work .img-left {
-	margin-left: -120px;
+	/*margin-left: -120px;*/
 }
 .list-work article {
 	margin-bottom: 140px;
