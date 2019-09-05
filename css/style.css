@@ -1148,7 +1148,7 @@ header.header-3d{
 	z-index: 3;
 }
 .sub-bnr.blog-l {
-	background: url(../images/bg/blog-list-bg.jpg) center center no-repeat;
+	background: url(../images/bg/blog-list-bg-1.jpg) center center no-repeat;
 	/*margin-top: 75px;*/
 	margin-bottom: 50px;
 }
@@ -1173,7 +1173,7 @@ header.header-3d{
 	margin-bottom: 50px;
 }
 .sub-bnr.blog-6 {
-	background: url(../images/bg/blog-list-bg-6.jpg) bottom center no-repeat;
+	background: url(../images/bg/blog-list-bg-6.jpg) center center no-repeat;
 	/*margin-top: 75px;*/
 	margin-bottom: 50px;
 }
@@ -1189,6 +1189,21 @@ header.header-3d{
 }
 .sub-bnr.blog-9 {
 	background: url(../images/bg/blog-list-bg-9.jpg) center center no-repeat;
+	/*margin-top: 75px;*/
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-10 {
+	background: url(../images/bg/blog-list-bg-10.jpg) center center no-repeat;
+	/*margin-top: 75px;*/
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-11 {
+	background: url(../images/bg/blog-list-bg-11.jpg) center center no-repeat;
+	/*margin-top: 75px;*/
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-12 {
+	background: url(../images/bg/blog-list-bg-12.jpg) center center no-repeat;
 	/*margin-top: 75px;*/
 	margin-bottom: 50px;
 }
@@ -1434,7 +1449,7 @@ header.header-3d{
 	/*margin-left: -120px;*/
 }
 .list-work article {
-	margin-bottom: 140px;
+	margin-bottom: 80px;
 }
 .list-work .text-info {
 	position: relative;
@@ -4406,4 +4421,18 @@ header .is-sticky .sticky {
 	color: #333333;
 	font-family: 'Montserrat', sans-serif;
 	opacity: 0.3;
+}
+.google-slides-container{
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+}
+
+.google-slides-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
