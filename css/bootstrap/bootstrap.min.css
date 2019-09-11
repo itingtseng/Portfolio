@@ -1418,10 +1418,10 @@ a {
 }
 
 a:focus,
-a:hover {
+/*a:hover {
     color: #23527c;
     text-decoration: underline
-}
+}*/
 
 a:focus {
     outline: thin dotted;
