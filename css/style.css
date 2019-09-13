@@ -462,7 +462,7 @@ header .logo {
 	padding: 0px;
 	border-radius: 0px;
 	text-align: center;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 header .logo li a {
 	font-size: 21px;
