@@ -3387,9 +3387,9 @@ header.header-3d{
 	padding-top: 80px;
 	padding-bottom: 150px;
 }
-.client-img {
-	margin-top: 80px;
-}
+/*.client-img {
+	margin-top: 30px;
+}*/
 .client-img li {
 	float: left;
 	width: 20%;
