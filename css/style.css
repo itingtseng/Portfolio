@@ -1068,7 +1068,7 @@ header.header-3d{
 	/*padding-bottom: 300px;*/
 	/*padding-top: 300px;*/
 }
-.hello:after {
+/*.hello:after {
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -1077,7 +1077,7 @@ header.header-3d{
 	position: absolute;
 	bottom: 0px;
 	content: "";
-}
+}*/
 .hello h4 {
 	line-height: 52px;
 	color: #b2b1b8;
