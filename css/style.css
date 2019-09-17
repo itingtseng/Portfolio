@@ -1220,6 +1220,16 @@ header.header-3d{
 	/*margin-top: 75px;*/
 	margin-bottom: 50px;
 }
+.sub-bnr.blog-13 {
+	background: url(../images/bg/blog-list-bg-13.jpeg) center center no-repeat;
+	/*margin-top: 75px;*/
+	margin-bottom: 50px;
+}
+.sub-bnr.blog-14 {
+	background: url(../images/blog-detail-img.jpg) center center no-repeat;
+	/*margin-top: 75px;*/
+	margin-bottom: 50px;
+}
 .divbg { 
     height: 500px;
     background: rgba(0,0,0,.3); 
