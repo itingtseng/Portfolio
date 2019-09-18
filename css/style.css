@@ -1230,6 +1230,11 @@ header.header-3d{
 	/*margin-top: 75px;*/
 	margin-bottom: 50px;
 }
+.sub-bnr.blog-15 {
+	background: url(../images/bg/blog-list-bg-14.jpg) center center no-repeat;
+	/*margin-top: 75px;*/
+	margin-bottom: 50px;
+}
 .divbg { 
     height: 500px;
     background: rgba(0,0,0,.3); 
