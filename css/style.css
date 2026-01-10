@@ -4491,9 +4491,13 @@ header .is-sticky .sticky {
     margin-left: 0px;
 }
 
+details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
 summary {
-  display: block;
-  text-align: center;
   list-style: none;
 }
 
@@ -4502,8 +4506,8 @@ summary::-webkit-details-marker {
 }
 
 summary.btn-large {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
   cursor: pointer;
-  text-align: center;
 }
