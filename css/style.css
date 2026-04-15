@@ -1865,7 +1865,7 @@ header.header-3d{
 }
 .project-info.full {
 	text-align: left;
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
 }
 .project-info.full li {
 	width: 25%;
