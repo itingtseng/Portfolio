@@ -26,7 +26,7 @@ COLOR:	DEFAULT BLANK CSS (NO ANY CODE)
 }
 
 .card-image1 {
-  height: 60%;
+  /*height: 60%;*/
   position: relative;
   overflow: hidden;
   margin-top: 0px;

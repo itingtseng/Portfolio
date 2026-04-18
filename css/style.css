@@ -4204,6 +4204,7 @@ header.header-3d{
 .col-3 .portfolio-item {
 	width: 33.3333%;
 	position: relative;
+	float: left;
 }
 .col-2 .portfolio-item {
 	width: 50%;
